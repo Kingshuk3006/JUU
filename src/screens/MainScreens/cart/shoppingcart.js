@@ -32,7 +32,7 @@ const Shoppingcart = () => {
   return (
     <View style={styles.container} >
       <FlatList
-        data={cartData}
+        data={products}
         renderItem={renderItem}
         keyExtractor={(item) => item.id}
         extraData={selectedId}
